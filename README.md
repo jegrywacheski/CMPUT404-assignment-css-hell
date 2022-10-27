@@ -1,6 +1,20 @@
 Assignment: CSS Hell
 ====================
 
+Instructions:
+=============
+To open the gutenberg pages, you can run them on their own, or use
+gutenberg.html to navigate easily between the pages.
+
+To open the good and bad CSS pages, you can run them on their own, 
+or use homepage.html to navigate easily between the pages.
+
+
+Modifications made to project gutenberg HTML files:
+* removed <style> tag
+* added <link> tag to reference gutenberg.css
+* added <link> tags to reference font familys
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your

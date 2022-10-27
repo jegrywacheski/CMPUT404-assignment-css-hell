@@ -1,0 +1,54 @@
+p {
+    text-indent: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+    font-family: 'Dancing Script';
+}
+body {
+    font-family: 'Lobster', 'Times New Roman';
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    background-color: rgb(130, 91, 78);
+    letter-spacing: 0.2em;
+    color: white;
+    }
+a {
+    color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: black;
+    }
+h1 {
+    font-size: 300%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    word-spacing: 0.2em;
+    text-indent: 0
+    }
+h2 {
+    font-size: 150%;
+    margin-top: 2em;
+    margin-bottom: 1em
+    }
+h3 {
+    font-size: 130%;
+    margin-top: 1em
+    }
+h4 {
+    font-size: 120%
+    }
+h5 {
+    font-size: 110%
+    }
+hr {
+    width: 50%;
+    text-align: center
+    }
+img {
+    border: 1em solid white;
+}
