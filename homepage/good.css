@@ -1,0 +1,44 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+img {
+    width: 200px
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.title {
+    display: inline-block;
+    margin: 5ex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    overflow: hidden;
+    padding-top: 8ex;
+    padding-left: 5ex;
+    padding-right: 5ex;
+}
+
+.points {
+    font-size: 3ex;
+    line-height: 3.5ex;
+}
+
+.main {
+    width: 70%;
+    padding: 6ex;
+}

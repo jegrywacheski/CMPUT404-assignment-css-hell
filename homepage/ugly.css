@@ -1,0 +1,68 @@
+body {
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-image: url('images/me_crop.jpg');
+    
+}
+
+img {
+    width: 200px
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 1em;
+    color: yellow;
+}
+
+p {
+    font-size: 2em;
+}
+
+.title {
+    display: inline-block;
+    margin: 5ex;
+}
+
+.sidecontent {
+    animation: MoveUpDown 5s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 70%;
+    }
+  }
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+    overflow: hidden;
+    padding-top: 8ex;
+    padding-left: 6ex;
+    padding-right: 6ex;
+}
+
+.points {
+    font-size: 3ex;
+    line-height: 2.5ex;
+}
+
+.main {
+    width: 70%;
+    padding: 6ex;
+    color: white;
+}
