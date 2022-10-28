@@ -15,8 +15,8 @@ Modifications made to project gutenberg HTML files:
 * added <link> tag to reference gutenberg.css
 * added <link> tags to reference font familys
 
-
-
+References:
+===========
 MoveUpDown animation includes code borrowed from https://stackoverflow.com/questions/35990445/how-to-move-a-div-up-and-down-infinitely-in-css3
 
 License/Copyright
